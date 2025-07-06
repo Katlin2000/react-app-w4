@@ -31,8 +31,6 @@ export default function SearchEngine() {
     <form onSubmit={handleSubmit}>
       <input type="search" placeholder="Enter a city.." onChange={updateCity} />
       <button type="Submit">Search</button>
-      <h2>Hi</h2>
-      <h3>hello</h3>
     </form>
   );
 
